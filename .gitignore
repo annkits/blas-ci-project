@@ -1,0 +1,34 @@
+# Build artifacts
+*.o
+*.exe
+*.out
+cblas_test
+benchmark
+symm.o
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Performance data
+*.perf
+*.csv
+
+# Core dumps
+core
+*.core
